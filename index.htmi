@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>レビューブログ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>レビューブログ</h1>
+    <nav>
+      <a href="#">ホーム</a>
+      <a href="#">カテゴリー</a>
+      <a href="#">お問い合わせ</a>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <h2>レビュー記事タイトル</h2>
+      <p>記事本文</p>
+      <img src="image.jpg" alt="画像">
+      <p>評価：★★★★☆</p>
+    </article>
+    <aside>
+      <section class="profile">
+        <img src="profile.jpg" alt="プロフィール画像">
+        <h3>名前</h3>
+        <p>自己紹介</p>
+      </section>
+      <section class="category">
+        <h3>カテゴリー</h3>
+        <ul>
+          <li><a href="#">カテゴリー1</a></li>
+          <li><a href="#">カテゴリー2</a></li>
+          <li><a href="#">カテゴリー3</a></li>
+        </ul>
+      </section>
+      <section class="latest-articles">
+        <h3>最新記事</h3>
+        <ul>
+          <li><a href="#">最新記事タイトル1</a></li>
+          <li><a href="#">最新記事タイトル2</a></li>
+          <li><a href="#">最新記事タイトル3</a></li>
+        </ul>
+      </section>
+    </aside>
+  </main>
+  <footer>
+    <p>Copyright &copy; 2023 レビューブログ</p>
+  </footer>
+</body>
+</html>
